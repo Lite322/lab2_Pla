@@ -60,6 +60,7 @@ namespace lab2_Pla
             foreach (int i in list2) sum2 += i;
             Console.WriteLine("Разница между ними:");
             Console.WriteLine(Math.Max(sum1, sum2) - Math.Min(sum1, sum2));
+            Console.ReadLine();
         }
     }
 }
